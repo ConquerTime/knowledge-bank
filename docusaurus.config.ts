@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://zhouyangdong.github.io',
+  url: 'https://conquertime.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI_Web_Interview_Prep/',
+  baseUrl: '/knowledge-bank/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'zhouyangdong', // Usually your GitHub org/user name.
-  projectName: 'AI_Web_Interview_Prep', // Usually your repo name.
+  organizationName: 'conquerTime', // Usually your GitHub org/user name.
+  projectName: 'knowledge-bank', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +58,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/zhouyangdong/AI_Web_Interview_Prep/tree/main/developer-knowledge-base/',
+            'https://github.com/conquerTime/knowledge-bank/tree/main/developer-knowledge-base/',
         },
         blog: {
           showReadingTime: true,
@@ -69,7 +69,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/zhouyangdong/AI_Web_Interview_Prep/tree/main/developer-knowledge-base/',
+            'https://github.com/conquerTime/knowledge-bank/tree/main/developer-knowledge-base/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -100,7 +100,7 @@ const config: Config = {
         },
         {to: '/blog', label: '学习日志', position: 'left'},
         {
-          href: 'https://github.com/zhouyangdong/AI_Web_Interview_Prep',
+          href: 'https://github.com/conquerTime/knowledge-bank',
           label: 'GitHub',
           position: 'right',
         },

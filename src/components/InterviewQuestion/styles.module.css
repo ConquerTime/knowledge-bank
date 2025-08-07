@@ -1,0 +1,254 @@
+.questionCard {
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: var(--ifm-background-color);
+  transition: all 0.3s ease;
+}
+
+.questionCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.questionCard.easy {
+  border-left: 4px solid var(--ifm-color-success);
+}
+
+.questionCard.medium {
+  border-left: 4px solid var(--ifm-color-warning);
+}
+
+.questionCard.hard {
+  border-left: 4px solid var(--ifm-color-danger);
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.category {
+  background: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-contrast-foreground);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.success {
+  background-color: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-contrast-foreground);
+}
+
+.warning {
+  background-color: var(--ifm-color-warning-contrast-background);
+  color: var(--ifm-color-warning-contrast-foreground);
+}
+
+.danger {
+  background-color: var(--ifm-color-danger-contrast-background);
+  color: var(--ifm-color-danger-contrast-foreground);
+}
+
+.company {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.questionContent {
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  line-height: 1.4;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-content);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.answerSection {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  padding-top: 1rem;
+}
+
+.toggleButton {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-foreground);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.toggleButton:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.toggleButton:active {
+  transform: translateY(0);
+}
+
+.answerContent {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.answer {
+  background: var(--ifm-color-secondary-contrast-background);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+.answer h5 {
+  margin: 0 0 0.75rem 0;
+  color: var(--ifm-color-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.answer p {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.6;
+}
+
+.answer pre {
+  background: var(--ifm-color-emphasis-200);
+  padding: 0.75rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.875rem;
+}
+
+.answer code {
+  background: var(--ifm-color-emphasis-200);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
+
+.followUp {
+  background: var(--ifm-color-info-contrast-background);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--ifm-color-info);
+}
+
+.followUp h5 {
+  margin: 0 0 0.75rem 0;
+  color: var(--ifm-color-info);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.followUp ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.followUp li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .questionCard {
+    padding: 1rem;
+  }
+  
+  .meta {
+    gap: 0.5rem;
+  }
+  
+  .category,
+  .difficulty,
+  .company {
+    font-size: 0.8rem;
+  }
+  
+  .question {
+    font-size: 1rem;
+  }
+  
+  .tags {
+    gap: 0.25rem;
+  }
+  
+  .tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+  }
+  
+  .toggleButton {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
+
+/* 暗色主题适配 */
+[data-theme='dark'] .questionCard {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .answer {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .followUp {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .tag {
+  background: var(--ifm-color-emphasis-300);
+}

@@ -1,0 +1,170 @@
+.projectCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: var(--ifm-background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.projectCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.title {
+  margin: 0;
+  color: var(--ifm-heading-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  flex: 1;
+  min-width: 200px;
+}
+
+.statusBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.success {
+  background-color: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-contrast-foreground);
+}
+
+.warning {
+  background-color: var(--ifm-color-warning-contrast-background);
+  color: var(--ifm-color-warning-contrast-foreground);
+}
+
+.info {
+  background-color: var(--ifm-color-info-contrast-background);
+  color: var(--ifm-color-info-contrast-foreground);
+}
+
+.meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.duration,
+.teamSize {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.techTag {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-content);
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.techTag:hover {
+  background: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-contrast-foreground);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section {
+  border-left: 3px solid var(--ifm-color-primary-light);
+  padding-left: 1rem;
+}
+
+.sectionTitle {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.sectionContent {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--ifm-color-content);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .projectCard {
+    padding: 1rem;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .title {
+    min-width: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .statusBadge {
+    align-self: flex-start;
+  }
+  
+  .meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .techStack {
+    gap: 0.25rem;
+  }
+  
+  .techTag {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+
+/* 暗色主题适配 */
+[data-theme='dark'] .projectCard {
+  border-color: var(--ifm-color-emphasis-300);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .projectCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='dark'] .techTag {
+  background: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .techTag:hover {
+  background: var(--ifm-color-primary-dark);
+}

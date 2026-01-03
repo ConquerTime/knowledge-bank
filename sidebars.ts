@@ -179,6 +179,49 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '💰 商业与创业',
+      items: [
+        'business/index',
+        {
+          type: 'category',
+          label: 'AI创业方向',
+          items: [
+            'business/ai-entrepreneurship/index',
+            'business/ai-entrepreneurship/ai-entrepreneurship-landscape',
+          ],
+        },
+        {
+          type: 'category',
+          label: '商业模式',
+          items: [
+            'business/business-models/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '市场分析',
+          items: [
+            'business/market-analysis/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '创业指南',
+          items: [
+            'business/startup-guides/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '案例研究',
+          items: [
+            'business/case-studies/index',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: '📝 面试准备',
       items: [
         'interview/index',

@@ -188,6 +188,8 @@ const sidebars: SidebarsConfig = {
           items: [
             'business/ai-entrepreneurship/index',
             'business/ai-entrepreneurship/ai-entrepreneurship-landscape',
+            'business/ai-entrepreneurship/ai-tools-layer-analysis',
+            'business/ai-entrepreneurship/ai-application-layer/ai-application-layer-analysis',
           ],
         },
         {

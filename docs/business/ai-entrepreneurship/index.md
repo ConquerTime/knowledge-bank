@@ -5,44 +5,43 @@ AI行业正处于快速发展期，应用层和工具层都涌现出大量创业
 ## 📋 目录概览
 
 ### 应用层创业方向
-1. [企业级AI应用](./enterprise-applications.md)
+1. **企业级AI应用**
    - 智能客服与销售自动化
    - AI驱动的CRM与营销
    - 智能文档与知识管理
 
-2. [开发者生产力工具](./developer-tools.md)
+2. **开发者生产力工具**
    - AI编程助手
    - AI辅助设计工具
 
-3. [消费级AI应用](./consumer-applications.md)
+3. **消费级AI应用**
    - AI伴侣与社交
    - AI教育与学习
    - AI内容创作工具
 
-4. [垂直行业应用](./vertical-industry.md)
+4. **垂直行业应用**
    - 医疗健康AI
    - 法律科技AI
    - 金融AI应用
 
 ### 工具层创业方向
-1. [开发者平台与基础设施](./developer-platform.md)
+1. **开发者平台与基础设施**
    - 模型服务与API平台
    - 模型微调与训练平台
    - 向量数据库与检索增强
 
-2. [AI工作流与编排](./workflow-orchestration.md)
+2. **AI工作流与编排**
    - No-Code/Low-Code AI平台
    - AI Agent开发框架
 
-3. [AI安全与监控](./security-monitoring.md)
+3. **AI安全与监控**
    - AI安全与对齐工具
    - 数据处理与标注工具
 
 ### 综合分析
-1. [AI创业全景分析](./ai-entrepreneurship-landscape.md) - 完整的市场分析报告
-2. [商业模式对比](./business-models.md)
-3. [竞争壁垒构建](./competitive-moats.md)
-4. [未来趋势预测](./future-trends.md)
+1. [AI创业全景分析](./ai-entrepreneurship-landscape.md) - 应用层+工具层完整分析
+2. [AI工具层深度分析](./ai-tools-layer-analysis.md) - 工具层产品方向、融资情况与创业机会
+3. [AI应用层深度分析](./ai-application-layer/ai-application-layer-analysis.md) - 应用层产品分析、失败案例剖析与创业方向
 
 ## 🎯 核心观点
 

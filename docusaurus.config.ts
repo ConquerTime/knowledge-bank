@@ -28,6 +28,14 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // 配置 Markdown 解析格式
+  // 'detect' 模式会根据文件扩展名自动选择解析器：
+  // - .md 文件使用 CommonMark（纯 Markdown，不支持 JSX）
+  // - .mdx 文件使用 MDX（支持 JSX）
+  markdown: {
+    format: 'detect',
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -59,6 +67,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/conquerTime/knowledge-bank/tree/main/developer-knowledge-base/',
+          exclude: ['**/README.md'],
         },
         blog: {
           showReadingTime: true,

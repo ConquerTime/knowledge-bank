@@ -2,17 +2,18 @@
 
 > 本文档是《AI应用层深度分析报告》的第二章，完整报告请参考[主文档](./ai-application-layer-analysis.md)
 
-注：本文对涉及事实性内容的表述，均尽量给出可访问的参考来源（以编号标注）。
+注：本文对涉及事实性内容的表述，均尽量给出可访问的参考来源（以角标编号标注，可点击跳转到文末参考来源）。
 
 ## AI编程助手
 
 ### 市场概况
 
-**市场状态（定性）**：AI 编程助手从“代码补全”快速演进到“对话式协作、代码库理解、Agent 工作流”，并在企业侧进入规模化试点与采购阶段（见 GitHub 面向软件团队的调研与企业试点研究）。[4][3]
+**市场状态（定性）**：AI 编程助手从“代码补全”快速演进到“对话式协作、代码库理解、Agent 工作流”，并在企业侧进入规模化试点与采购阶段（见 GitHub 面向软件团队的调研与企业试点研究）。<sup><a href="#ref-4">4</a></sup><sup><a href="#ref-3">3</a></sup>
 
 **增长驱动（可核验/可解释）**：
-- **效率收益可被度量**：在 GitHub 的受控实验中，使用 Copilot 的开发者完成任务显著更快（报告为“55% faster”，并给出置信区间）。[2]
-- **组织采纳在加速**：GitHub 的调查中，受访者所在组织对 AI 编码工具的“鼓励/允许”比例在不同国家/地区存在差异，但总体呈上升趋势。[4]
+- **效率收益可被度量**：在 GitHub 的受控实验中，使用 Copilot 的开发者完成任务显著更快（报告为“55% faster”，并给出置信区间）。<sup><a href="#ref-2">2</a></sup>
+- **效率收益可被度量**：在 GitHub 的受控实验中，使用 Copilot 的开发者完成任务显著更快（报告为“55% faster”，并给出置信区间）。<sup><a href="#ref-2">2</a></sup>
+- **组织采纳在加速**：GitHub 的调查中，受访者所在组织对 AI 编码工具的“鼓励/允许”比例在不同国家/地区存在差异，但总体呈上升趋势。<sup><a href="#ref-4">4</a></sup>
 
 ### 成功案例分析
 
@@ -20,7 +21,7 @@
 
 **公司背景**:
 - 开发方：GitHub + OpenAI
-- 定价：$10/月（个人 Copilot Pro）、$19/用户/月（Copilot Business，企业按席位计费）[1]
+- 定价：$10/月（个人 Copilot Pro）、$19/用户/月（Copilot Business，企业按席位计费）<sup><a href="#ref-1">1</a></sup>
 
 **成功要素**:
 
@@ -40,12 +41,12 @@
    - 数据飞轮效应
 
 **核心数据（来自 GitHub 公开研究/调查）**：
-- **生产力（受控实验）**：在 GitHub 的实验任务中，“使用 Copilot 的开发者完成任务显著更快（55% faster）”。[2]
-- **主观体验（受控实验）**：报告提到使用 Copilot 的开发者更容易保持心流（73%）并减少重复性任务带来的心智消耗（87%）。[2]
+- **生产力（受控实验）**：在 GitHub 的实验任务中，“使用 Copilot 的开发者完成任务显著更快（55% faster）”。<sup><a href="#ref-2">2</a></sup>
+- **主观体验（受控实验）**：报告提到使用 Copilot 的开发者更容易保持心流（73%）并减少重复性任务带来的心智消耗（87%）。<sup><a href="#ref-2">2</a></sup>
 - **企业试点（Accenture）**：
-  - **建议采纳**：试点中“开发者接受了约 30% 的 Copilot 建议”（acceptance rate）。[3]
-  - **工程指标变化**：该研究报告了 PR、合并率、成功构建等指标的变化（例如 PR 合并率提升 15%、成功构建提升 84% 等），但应注意其为单一企业试点情境下的观测结果。[3]
-- **团队普及（调查样本）**：GitHub 在面向 2,000 名受访者的调查中提到“几乎所有人（upwards of 97%）都表示在工作内外某个时点使用过 AI 编码工具”，并指出组织层面的允许/鼓励比例在不同市场有明显差异。[4]
+  - **建议采纳**：试点中“开发者接受了约 30% 的 Copilot 建议”（acceptance rate）。<sup><a href="#ref-3">3</a></sup>
+  - **工程指标变化**：该研究报告了 PR、合并率、成功构建等指标的变化（例如 PR 合并率提升 15%、成功构建提升 84% 等），但应注意其为单一企业试点情境下的观测结果。<sup><a href="#ref-3">3</a></sup>
+- **团队普及（调查样本）**：GitHub 在面向 2,000 名受访者的调查中提到“几乎所有人（upwards of 97%）都表示在工作内外某个时点使用过 AI 编码工具”，并指出组织层面的允许/鼓励比例在不同市场有明显差异。<sup><a href="#ref-4">4</a></sup>
 
 **可复制策略**:
 - 先发优势至关重要
@@ -58,7 +59,7 @@
 
 **公司背景**:
 - 产品形态：以“AI-native 编辑器/IDE”作为主要交互入口（区别于传统 IDE 的外挂式插件）
-- 定价：官网展示 Pro 方案为 $20/月（按月订阅）[5]
+- 定价：官网展示 Pro 方案为 $20/月（按月订阅）<sup><a href="#ref-5">5</a></sup>
 
 **成功要素**:
 
@@ -73,12 +74,12 @@
    - 自然语言编程体验
 
 3. **产品驱动增长**
-   - 免费试用（例如官方页面提到 One-week Pro trial）[5]
+   - 免费试用（例如官方页面提到 One-week Pro trial）<sup><a href="#ref-5">5</a></sup>
    - 口碑传播
    - 开发者社区活跃
 
 **可核验数据**:
-- 定价：$20/月（Pro 方案，来自官方定价页）[5]
+- 定价：$20/月（Pro 方案，来自官方定价页）<sup><a href="#ref-5">5</a></sup>
 
 **增长策略**:
 - Twitter/X上的病毒式传播
@@ -99,7 +100,7 @@
 
 **背景**:
 - 母公司：Amazon
-- **产品线演进**：AWS 近年来将开发者助手能力纳入 Amazon Q Developer 体系（包含免费层与付费能力）。[6][7]
+- **产品线演进**：AWS 近年来将开发者助手能力纳入 Amazon Q Developer 体系（包含免费层与付费能力）。<sup><a href="#ref-6">6</a></sup><sup><a href="#ref-7">7</a></sup>
 
 **失败原因**:
 
@@ -118,7 +119,7 @@
    - 开发者社区不活跃
    - **教训**: 开发者市场需要社区建设
 
-> 注：此前版本包含“付费用户/认知度”等具体数字，但未能找到可核验来源，已移除。本文保留的是**可复核的产品定位与常见失败机理**，并提供官方页面作为背景参考。[6][7][1]
+> 注：此前版本包含“付费用户/认知度”等具体数字，但未能找到可核验来源，已移除。本文保留的是**可复核的产品定位与常见失败机理**，并提供官方页面作为背景参考。<sup><a href="#ref-6">6</a></sup><sup><a href="#ref-7">7</a></sup><sup><a href="#ref-1">1</a></sup>
 
 ---
 
@@ -240,7 +241,8 @@
 #### 🏆 Figma AI - 巨头的谨慎
 
 **公司背景**:
-- **并购事实纠正**：Adobe 于 2022 年宣布拟以约 200 亿美元收购 Figma，但交易在 2023 年终止（并非“已被收购”）。[8][9]
+- **并购事实纠正**：Adobe 于 2022 年宣布拟以约 200 亿美元收购 Figma，但交易在 2023 年终止（并非“已被收购”）。<sup><a href="#ref-8">8</a></sup><sup><a href="#ref-9">9</a></sup>
+- **并购事实纠正**：Adobe 于 2022 年宣布拟以约 200 亿美元收购 Figma，但交易在 2023 年终止（并非“已被收购”）。<sup><a href="#ref-8">8</a></sup><sup><a href="#ref-9">9</a></sup>
 
 **成功要素**:
 
@@ -266,8 +268,8 @@
 #### 🏆 Uizard - 快速原型的专家
 
 **公司背景**:
-- 成立时间：2017年（公司页面信息）[10]
-- 官方自述规模：About 页面提到“3,000,000+ professionals use Uizard”“25,000+ teams”“10,000 new projects each week”等口径（企业自述，非第三方审计）。[10]
+- 成立时间：2017年（公司页面信息）<sup><a href="#ref-10">10</a></sup>
+- 官方自述规模：About 页面提到“3,000,000+ professionals use Uizard”“25,000+ teams”“10,000 new projects each week”等口径（企业自述，非第三方审计）。<sup><a href="#ref-10">10</a></sup>
 
 **成功要素**:
 
@@ -415,13 +417,13 @@
 
 ## 参考来源
 
-[1] GitHub Copilot 定价与方案：`https://github.com/features/copilot/plans`  
-[2] GitHub Research：Quantifying GitHub Copilot’s impact on developer productivity and happiness：`https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/`  
-[3] GitHub Research：Quantifying GitHub Copilot’s impact in the enterprise with Accenture：`https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/`  
-[4] GitHub Research Survey：The AI wave continues to grow on software development teams：`https://github.blog/news-insights/research/survey-ai-wave-grows/`  
-[5] Cursor 官方定价页：`https://www.cursor.com/pricing`  
-[6] Amazon Q Developer 定价（含 Free Tier）：`https://aws.amazon.com/q/developer/pricing/`  
-[7] AWS CodeWhisperer 介绍页：`https://aws.amazon.com/codewhisperer/`  
-[8] CNBC：Adobe to acquire design platform Figma for $20 billion：`https://www.cnbc.com/2022/09/15/adobe-to-acquire-design-platform-figma-for-20-billion.html`  
-[9] Adobe Newsroom：Adobe and Figma Mutually Agree to Terminate Merger Agreement：`https://news.adobe.com/news/news-details/2023/Adobe-and-Figma-Mutually-Agree-to-Terminate-Merger-Agreement/default.aspx`  
-[10] Uizard About（公司自述规模与信息）：`https://uizard.io/about/`
+1. <span id="ref-1"></span>[GitHub Copilot 定价与方案](https://github.com/features/copilot/plans)
+2. <span id="ref-2"></span>[GitHub Research：Quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+3. <span id="ref-3"></span>[GitHub Research：Quantifying GitHub Copilot’s impact in the enterprise with Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
+4. <span id="ref-4"></span>[GitHub Research Survey：The AI wave continues to grow on software development teams](https://github.blog/news-insights/research/survey-ai-wave-grows/)
+5. <span id="ref-5"></span>[Cursor 官方定价页](https://www.cursor.com/pricing)
+6. <span id="ref-6"></span>[Amazon Q Developer 定价（含 Free Tier）](https://aws.amazon.com/q/developer/pricing/)
+7. <span id="ref-7"></span>[AWS CodeWhisperer 介绍页](https://aws.amazon.com/codewhisperer/)
+8. <span id="ref-8"></span>[CNBC：Adobe to acquire design platform Figma for $20 billion](https://www.cnbc.com/2022/09/15/adobe-to-acquire-design-platform-figma-for-20-billion.html)
+9. <span id="ref-9"></span>[Adobe Newsroom：Adobe and Figma Mutually Agree to Terminate Merger Agreement](https://news.adobe.com/news/news-details/2023/Adobe-and-Figma-Mutually-Agree-to-Terminate-Merger-Agreement/default.aspx)
+10. <span id="ref-10"></span>[Uizard About（公司自述规模与信息）](https://uizard.io/about/)

@@ -34,8 +34,8 @@
 ### 2.1 状态管理方案对比
 
 - [x] [React 状态管理库源码对比：Zustand vs Jotai vs Redux Toolkit](./zustand-jotai-redux-toolkit-comparison.md)
-- [ ] React Query vs SWR：服务端状态管理源码对比
-- [ ] 状态管理的本质：从 Flux 到 Signals 的演进
+- [x] [React Query vs SWR：服务端状态管理源码对比](./react-query-vs-swr-server-state-source-compare.md)
+- [x] [状态管理的本质：从 Flux 到 Signals 的演进](./state-management-essence-flux-to-signals-evolution.md)
 
 ### 2.2 Context 深度剖析
 
@@ -193,6 +193,8 @@
 
 | 日期 | 更新内容 |
 |------|---------|
+| 2026-01-04 | 新增《React Query vs SWR：服务端状态管理源码对比》 |
+| 2026-01-04 | 新增《状态管理的本质：从 Flux 到 Signals 的演进》 |
 | 2025-01-03 | 新增《Hooks 链表存储机制与调用顺序约束》 |
 | 2025-01-03 | 新增《useState/useReducer 源码级实现分析》 |
 | 2025-01-03 | 新增《useMemo/useCallback 的缓存策略与滥用问题》 |

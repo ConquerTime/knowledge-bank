@@ -69,7 +69,7 @@
 ### 3.3 性能监控与调优
 
 - [x] [React 性能优化与 Web 性能监控：从 Rerender 到 RUM（Next.js 落地）](./react-performance-optimization-and-monitoring-nextjs.md)
-- [ ] React Profiler API 与性能分析实战
+- [x] [React Profiler API 与性能分析实战](./react-profiler-api-and-performance-analysis.md)
 - [ ] 内存泄漏排查与预防
 - [ ] Bundle 优化：Code Splitting 与 Tree Shaking
 
@@ -194,6 +194,7 @@
 
 | 日期 | 更新内容 |
 |------|---------|
+| 2026-01-07 | 新增《React Profiler API 与性能分析实战》 |
 | 2026-01-05 | 新增《React 性能优化与 Web 性能监控：从 Rerender 到 RUM（Next.js 落地）》 |
 | 2026-01-04 | 新增《React Query vs SWR：服务端状态管理源码对比》 |
 | 2026-01-04 | 新增《状态管理的本质：从 Flux 到 Signals 的演进》 |

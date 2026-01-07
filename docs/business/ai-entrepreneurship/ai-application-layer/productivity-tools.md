@@ -417,13 +417,13 @@
 
 ## 参考来源
 
-1. <span id="ref-1"></span>[GitHub Copilot 定价与方案](https://github.com/features/copilot/plans)
-2. <span id="ref-2"></span>[GitHub Research：Quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
-3. <span id="ref-3"></span>[GitHub Research：Quantifying GitHub Copilot’s impact in the enterprise with Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
-4. <span id="ref-4"></span>[GitHub Research Survey：The AI wave continues to grow on software development teams](https://github.blog/news-insights/research/survey-ai-wave-grows/)
-5. <span id="ref-5"></span>[Cursor 官方定价页](https://www.cursor.com/pricing)
-6. <span id="ref-6"></span>[Amazon Q Developer 定价（含 Free Tier）](https://aws.amazon.com/q/developer/pricing/)
-7. <span id="ref-7"></span>[AWS CodeWhisperer 介绍页](https://aws.amazon.com/codewhisperer/)
-8. <span id="ref-8"></span>[CNBC：Adobe to acquire design platform Figma for $20 billion](https://www.cnbc.com/2022/09/15/adobe-to-acquire-design-platform-figma-for-20-billion.html)
-9. <span id="ref-9"></span>[Adobe Newsroom：Adobe and Figma Mutually Agree to Terminate Merger Agreement](https://news.adobe.com/news/news-details/2023/Adobe-and-Figma-Mutually-Agree-to-Terminate-Merger-Agreement/default.aspx)
-10. <span id="ref-10"></span>[Uizard About（公司自述规模与信息）](https://uizard.io/about/)
+1. <a id="ref-1"></a>[GitHub Copilot 定价与方案](https://github.com/features/copilot/plans)
+2. <a id="ref-2"></a>[GitHub Research：Quantifying GitHub Copilot's impact on developer productivity and happiness](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+3. <a id="ref-3"></a>[GitHub Research：Quantifying GitHub Copilot's impact in the enterprise with Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
+4. <a id="ref-4"></a>[GitHub Research Survey：The AI wave continues to grow on software development teams](https://github.blog/news-insights/research/survey-ai-wave-grows/)
+5. <a id="ref-5"></a>[Cursor 官方定价页](https://www.cursor.com/pricing)
+6. <a id="ref-6"></a>[Amazon Q Developer 定价（含 Free Tier）](https://aws.amazon.com/q/developer/pricing/)
+7. <a id="ref-7"></a>[AWS CodeWhisperer 介绍页](https://aws.amazon.com/codewhisperer/)
+8. <a id="ref-8"></a>[CNBC：Adobe to acquire design platform Figma for $20 billion](https://www.cnbc.com/2022/09/15/adobe-to-acquire-design-platform-figma-for-20-billion.html)
+9. <a id="ref-9"></a>[Adobe Newsroom：Adobe and Figma Mutually Agree to Terminate Merger Agreement](https://news.adobe.com/news/news-details/2023/Adobe-and-Figma-Mutually-Agree-to-Terminate-Merger-Agreement/default.aspx)
+10. <a id="ref-10"></a>[Uizard About（公司自述规模与信息）](https://uizard.io/about/)

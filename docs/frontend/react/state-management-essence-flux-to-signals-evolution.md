@@ -204,7 +204,7 @@ getServerSnapshot?() => snapshot (SSR)
 
 ---
 
-## 八、Atom/Selector：从“全局 store”到“依赖图”
+## 八、Atom/Selector：从"全局 store"到"依赖图" {#八atomselector从全局-store-到依赖图}
 
 ### 8.1 传统 store 的问题：粗粒度更新
 
@@ -250,7 +250,7 @@ atomA   atomB
 
 关键理解：
 
-> **Server State ≠ Client State**  
+> **Server State ≠ Client State**
 > Server State 的真相在服务端，客户端缓存只是投影；所以它必须携带“时间、版本、in-flight、错误、重试”等元数据。
 
 因此把 server state 混进 Redux 这类纯 reducer 模型里，往往会出现：

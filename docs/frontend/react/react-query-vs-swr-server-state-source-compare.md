@@ -11,8 +11,8 @@
 5. [订阅与渲染一致性：useSyncExternalStore 与 tearing](#五订阅与渲染一致性usesyncexternalstore-与-tearing)
 6. [请求去重与竞态：dedupe window vs query 实例化](#六请求去重与竞态dedupe-window-vs-query-实例化)
 7. [Stale/GC：staleTime、gcTime vs dedupingInterval、cache provider](#七stalegcstaletimegctime-vs-dedupingintervalcache-provider)
-8. [Invalidation 与 Revalidate：invalidateQueries vs mutate/revalidate](#八invalidation-与-revalidateinvalidatequeries-vs-mutatrevalidate)
-9. [Mutations：MutationCache vs mutate(key, data)](#九mutationsmutationcache-vs-mutatek-data)
+8. [Invalidation 与 Revalidate：invalidateQueries vs mutate/revalidate](#八invalidation-与-revalidateinvalidatequeries-vs-mutate-revalidate)
+9. [Mutations：MutationCache vs mutate(key, data)](#九mutationsmutationcache-vs-mutatekey-data)
 10. [并发与取消：AbortSignal、Retryer vs fetcher 约定](#十并发与取消abortsignalretryer-vs-fetcher-约定)
 11. [工程化差异：core 分层、插件化、DevTools](#十一工程化差异core-分层插件化devtools)
 12. [选型建议：从“状态语义”而不是“API 喜好”出发](#十二选型建议从状态语义而不是api-喜好出发)
@@ -207,7 +207,7 @@ SWR 的缓存生命周期更依赖：
 
 ---
 
-## 八、Invalidation 与 Revalidate：invalidateQueries vs mutate/revalidate
+## 八、Invalidation 与 Revalidate：invalidateQueries vs mutate/revalidate {#八invalidation-与-revalidateinvalidatequeries-vs-mutate-revalidate}
 
 ### 8.1 TanStack Query：声明式失效（按 key 匹配）
 
@@ -231,7 +231,7 @@ SWR 的核心操作就是 `mutate(key, data?, options?)`：
 
 ---
 
-## 九、Mutations：MutationCache vs mutate(key, data)
+## 九、Mutations：MutationCache vs mutate(key, data) {#九mutationsmutationcache-vs-mutatekey-data}
 
 ### 9.1 TanStack Query：Mutation 是一等公民
 
@@ -334,4 +334,4 @@ SWR 的核心 API 非常稳定，适合：
 - [SWR GitHub](https://github.com/vercel/swr)
 - [React：useSyncExternalStore](https://react.dev/reference/react/useSyncExternalStore)
 
-> 注：本文的“源码架构”对比基于 TanStack Query v5.x 与 SWR v2.x 的公开实现与设计文档；不同小版本在文件组织与细节上可能存在差异，但核心抽象与数据流稳定。 
+> 注：本文的“源码架构”对比基于 TanStack Query v5.x 与 SWR v2.x 的公开实现与设计文档；不同小版本在文件组织与细节上可能存在差异，但核心抽象与数据流稳定。

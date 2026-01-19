@@ -17,6 +17,23 @@
 - **行为面试**：高频问题与回答技巧
 - **面试流程指南**：从准备到复盘的完整流程
 
+### [面试模拟题库](./mock-interviews/)
+
+包含**十套完整的面试模拟问答**，覆盖面试全流程：
+
+| 序号 | 面试类型 | 时长 |
+|------|---------|------|
+| 01 | [技术筛选-前端基础](./mock-interviews/01-frontend-basics.md) | 45分钟 |
+| 02 | [技术筛选-后端基础](./mock-interviews/02-backend-basics.md) | 45分钟 |
+| 03 | [AI技术-LLM与Prompt](./mock-interviews/03-llm-prompt-engineering.md) | 60分钟 |
+| 04 | [AI技术-RAG系统](./mock-interviews/04-rag-system.md) | 60分钟 |
+| 05 | [AI技术-AI Agent](./mock-interviews/05-ai-agent.md) | 60分钟 |
+| 06 | [项目深挖面试](./mock-interviews/06-project-deep-dive.md) | 60分钟 |
+| 07 | [系统设计面试](./mock-interviews/07-system-design.md) | 60分钟 |
+| 08 | [算法编程面试](./mock-interviews/08-coding-algorithm.md) | 60分钟 |
+| 09 | [行为面试](./mock-interviews/09-behavioral.md) | 45分钟 |
+| 10 | [综合面试-团队匹配](./mock-interviews/10-final-culture-fit.md) | 45分钟 |
+
 ---
 
 ## 📁 分类内容

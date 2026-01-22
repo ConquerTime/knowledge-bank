@@ -10,9 +10,12 @@ tech_stack:
   backend: ["技术1", "技术2"]
   tools: ["工具1", "工具2"]
 status: "completed" # completed | in-progress | planned
+# hide_breadcrumbs: true # 可选：隐藏此文档的面包屑导航
 ---
 
 # 项目名称
+
+> 提示：如果不希望页面显示面包屑，在 front matter 中取消注释 `hide_breadcrumbs: true`。
 
 ## 项目背景
 

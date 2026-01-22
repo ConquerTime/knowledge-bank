@@ -68,6 +68,8 @@ const config: Config = {
           editUrl:
             'https://github.com/conquerTime/knowledge-bank/tree/main/developer-knowledge-base/',
           exclude: ['**/README.md'],
+          // 显式开启 docs 面包屑（v3 默认开启，这里确保不会被覆盖）
+          breadcrumbs: true,
         },
         blog: {
           showReadingTime: true,

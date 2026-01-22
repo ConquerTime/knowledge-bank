@@ -79,22 +79,22 @@
 
 ### 4.1 组件设计模式
 
-- [ ] Compound Components 复合组件模式
-- [ ] Render Props vs Hooks：模式演进与取舍
-- [ ] Headless Components 设计哲学
-- [ ] 受控与非受控组件的架构决策
+- [x] [Compound Components 复合组件模式](./react-component-design-patterns.md)
+- [x] [Render Props vs Hooks：模式演进与取舍](./react-component-design-patterns.md)
+- [x] [Headless Components 设计哲学](./react-component-design-patterns.md)
+- [x] [受控与非受控组件的架构决策](./react-component-design-patterns.md)
 
 ### 4.2 大型应用架构
 
-- [ ] Feature-Sliced Design：前端分层架构实践
-- [ ] Monorepo 下的 React 组件库架构
-- [ ] 微前端架构：Module Federation 与 React
+- [x] [Feature-Sliced Design：前端分层架构实践](./feature-sliced-design-react-architecture.md)
+- [x] [Monorepo 下的 React 组件库架构](./react-monorepo-component-library-architecture.md)
+- [x] [微前端架构：Module Federation 与 React](./micro-frontend-module-federation-react.md)
 
 ### 4.3 设计系统
 
-- [ ] Design Tokens 与主题系统实现
-- [ ] CSS-in-JS 方案对比：Styled-components vs Emotion vs Vanilla Extract
-- [ ] Headless UI 组件库设计原则
+- [x] [Design Tokens 与主题系统实现](./design-system-design-tokens-theming.md)
+- [x] [CSS-in-JS 方案对比：Styled-components vs Emotion vs Vanilla Extract](./design-system-design-tokens-theming.md)
+- [x] [Headless UI 组件库设计原则](./design-system-design-tokens-theming.md)
 
 ---
 
@@ -194,6 +194,11 @@
 
 | 日期 | 更新内容 |
 |------|---------|
+| 2026-01-07 | 新增《React 组件设计模式：Compound/Headless/Controlled…》 |
+| 2026-01-07 | 新增《Feature-Sliced Design：React 大型应用分层架构（Next.js + Vite SPA）》 |
+| 2026-01-07 | 新增《微前端架构：Module Federation + React（Next.js + Vite）》 |
+| 2026-01-07 | 新增《Monorepo 下的 React 组件库架构（pnpm workspace）》 |
+| 2026-01-07 | 新增《设计系统：Design Tokens 与主题系统落地（Next.js + Vite）》 |
 | 2026-01-07 | 新增《React Profiler API 与性能分析实战》 |
 | 2026-01-05 | 新增《React 性能优化与 Web 性能监控：从 Rerender 到 RUM（Next.js 落地）》 |
 | 2026-01-04 | 新增《React Query vs SWR：服务端状态管理源码对比》 |
